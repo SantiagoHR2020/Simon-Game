@@ -6,3 +6,5 @@ export enum COLORS {
 }
 
 export const START_COUNT = 2;
+
+// TODO
