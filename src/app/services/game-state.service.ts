@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 
-import { START_COUNT } from '../models/constant';
+import { COLORS, START_COUNT } from '../models/constant';
 
 @Injectable({
   providedIn: 'root'
@@ -16,6 +16,19 @@ export class GameStateService {
    }
 
    private get randomSimonColor(){
-     
+      return COLORS[Math.floor(Math.random() * 4)];
+   }
+
+   simonAppend(){
+     this.counter++;
+     this.simon.push(this.randomSimonColor);
+   }
+
+   simonSeqGenerate() {
+     for (let i = 0; i< this.counter; i++){
+        this.simonAppend();
+     }
+
+     return this.simon;
    }
 }
