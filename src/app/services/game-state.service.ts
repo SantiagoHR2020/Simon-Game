@@ -6,6 +6,7 @@ import { COLORS, START_COUNT } from "../models/constants";
 })
 export class GameStateService {
 
+  // TODO
   simon: string[] = [];
   player: string[] = [];
   count: number;
@@ -57,7 +58,7 @@ export class GameStateService {
     }
 
     return true;
-    
+
   }
 
 }
