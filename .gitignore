@@ -12,7 +12,7 @@
 
 # profiling files
 chrome-profiler-events*.json
-
+rm .git/index.lock
 # IDEs and editors
 /.idea
 .project
