@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 h2{
 text-align: center;
 text-transform: uppercase;
 font-family: sans-serif;
+=======
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+>>>>>>> service
 }
