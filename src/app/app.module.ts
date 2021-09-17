@@ -10,13 +10,9 @@ import { GameButtonComponent } from './components/game/game-button/game-button.c
 @NgModule({
   declarations: [
     AppComponent,
-<<<<<<< HEAD
     GameComponent,
-    GameButtonComponent,
+    GameButtonComponent
 
-=======
-    
->>>>>>> 97d3e5b6148b94870960381071510867febb2458
   ],
   imports: [
     BrowserModule

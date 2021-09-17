@@ -1,17 +1,11 @@
 import { Injectable } from '@angular/core';
-<<<<<<< HEAD
-=======
-import { COLORS, START_COUNT } from "../models/constants";
->>>>>>> 97d3e5b6148b94870960381071510867febb2458
+import { COLORS, START_COUNT } from '../models/constants';
 
 @Injectable({
   providedIn: 'root'
 })
 export class GameStateService {
 
-<<<<<<< HEAD
-  constructor() { }
-=======
   // TODO
   simon: string[] = [];
   player: string[] = [];
@@ -67,5 +61,4 @@ export class GameStateService {
 
   }
 
->>>>>>> 97d3e5b6148b94870960381071510867febb2458
 }
