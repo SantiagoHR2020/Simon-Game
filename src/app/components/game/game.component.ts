@@ -18,8 +18,8 @@ export class GameComponent implements OnInit {
   }
 
 
-  playerGuess(e: string) {
-    this.game.playerGuess(e)
+  playerGuess(e) {
+    this.game.playerGuess(e);
   }
 
 }

@@ -1,10 +1,6 @@
 import { Injectable } from '@angular/core';
-<<<<<<< HEAD
-import { COLORS, START_COUNT } from '../models/constants';
-=======
 import { Subject } from 'rxjs';
 import { COLORS, START_COUNT } from "../models/constants";
->>>>>>> service
 
 @Injectable({
   providedIn: 'root'
@@ -17,7 +13,7 @@ export class GameStateService {
   count: number;
   state = new Subject<any>();
 
-  constructor() { 
+  constructor() {
     this.count = START_COUNT;
   }
 
@@ -26,7 +22,7 @@ export class GameStateService {
   }
 
   appendSimon(increment :boolean = false): void {
-    
+
     if(increment) {
       this.count++;
     }
